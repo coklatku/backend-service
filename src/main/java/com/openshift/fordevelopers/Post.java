@@ -38,9 +38,7 @@ public class Post extends PanacheMongoEntity {
         this.title = title;
     }
 
-    public void setContent(String content) {
-        this.content = content;
-    }
+    public void setContent(String content) {this.content = content;}
 
     public void setTimestamp(long timestamp) {
         this.timestamp = timestamp;
