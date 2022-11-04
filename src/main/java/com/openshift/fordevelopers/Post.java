@@ -36,9 +36,7 @@ public class Post extends PanacheMongoEntity {
 
     public void setContent(String content) {this.content = content;}
 
-    public void setTimestamp(long timestamp) {
-        this.timestamp = timestamp;
-    }
+    public void setTimestamp(long timestamp) {this.timestamp = timestamp;}
 
     @Override
     public boolean equals(Object obj) {
